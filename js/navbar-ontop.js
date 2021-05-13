@@ -8,11 +8,11 @@
 
 	var className = "navbar-ontop"
 	
-	// we start hidden, to avoid flickering
+	// Iniciando e escondendo, para evitar piscar
 	document.write("<style id='temp-navbar-ontop'>.navbar {opacity:0; transition: none !important}</style>")
 
 	function update() {
-		// toggle className based on the scrollTop property of document
+		// alternar className com base na propriedade scrollTop do documento
 		var nav = document.querySelector(".navbar")
 
 		if (window.scrollY > 15)
@@ -30,7 +30,7 @@
 			update()
 		})
 		update()
-		// still hacking to avoid flickering
+		// ainda hackeando para evitar cintilação
 		setTimeout(function() {
 			document.querySelector("#temp-navbar-ontop").remove()
 		})

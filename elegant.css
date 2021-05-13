@@ -64,11 +64,11 @@ body {
   margin: 0;
   font-family: Montserrat;
   font-size: 0.8rem;
-  font-weight: 300;
+  /* font-weight: 300;        destaque da data */
   line-height: 1.5;
   color: white;
   text-align: left;
-  background-color: #7d6666;
+  background-color: #19191bf5;
   ; }
 
 [tabindex="-1"]:focus {
@@ -151,7 +151,8 @@ a {
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #848484;
-    text-decoration: underline; }
+    text-decoration: none;
+   }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -399,7 +400,7 @@ mark,
     content: "\2014 \00A0"; }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 30%;
   height: auto; }
 
 .img-thumbnail {
@@ -478,17 +479,20 @@ pre {
       max-width: 960px; } }
 
 .container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 90%;
+  margin-top: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 1200px;
+}
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: 10px;
+  margin-left: 10px; }
 
 .no-gutters {
   margin-right: 0;
@@ -1627,7 +1631,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(27, 32, 33, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(33, 21, 146, 0.25); }
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
   .btn:not(:disabled):not(.disabled) {
@@ -1641,11 +1645,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b2021;
+  background-color: #2314acd7;
   border-color: #1b2021; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0a0c0c;
+    background-color: #6100fd;
     border-color: #040505; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(27, 32, 33, 0.5); }
@@ -2610,7 +2614,7 @@ tbody.collapse.show {
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #6c757d; }
+    color: #ad2e2e; }
 
 .nav-tabs {
   border-bottom: 1px solid #1b2021; }
@@ -4095,9 +4099,10 @@ button.close {
 
 .align-text-top {
   vertical-align: text-top !important; }
-
+/*
 .bg-primary {
-  background-color: #1b2021 !important; }
+  background-color: #1b2021 !important; }    cor de fundo rede social email
+*/
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4144,8 +4149,12 @@ button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
+
+
+  /*
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #f8f9fa !important; }    // cor de fundo das rede social facebook
+*/
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -4153,7 +4162,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #202020 !important; }
+  background-color: #222223 !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -5975,7 +5984,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #070707 !important; }
 
 .text-muted {
-  color: #6c757d !important; }
+  color: #aaaaaa !important; }
 
 .text-hide {
   font: 0/0 a;

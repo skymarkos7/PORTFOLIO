@@ -10,7 +10,7 @@
   var duration = 500
 
   $('a[href*="#"]')
-    // Remove links that don't actually link to anything
+    // Remova os links que realmente não direcionam a nada
     .not('[href="#"]')
     .click(function(event) {
       // On-page links
