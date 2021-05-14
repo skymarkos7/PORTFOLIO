@@ -4,6 +4,15 @@
  * Make sure to add this script to the <head> of page to avoid flickering on load
  */
 
+
+ .modal:target {
+	opacity: 1;
+	pointer-events: auto;
+  }
+
+
+
+
 (function() {
 
 	var className = "navbar-ontop"
