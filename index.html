@@ -17,6 +17,7 @@
   <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>  <!--estily for slyder-->
 </head>
 
 <body class="text-center">
@@ -114,9 +115,94 @@
     <div class="container my-5 bg-primary animate-in-down">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-white mt-4">Desenvolva o sistema certo para você</h1>
+          <h1 class="text-white mt-4">Projetos Desenvolvidos</h1>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+      
+      
+     
+       
+       
+          <!-- Swiper -->
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="p-4 col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="card-block text-center card-primary p-2">
+                    <h2> ESTOQUE</h2> 
+                     <p class="lead"> Gerencie entradas - saídas</p>
+                  </div>
+                  
+                  <div class="swiper-slide"><img src="img/estoque.jpg" alt=""></div></div>
+                </div>
+              <div class="swiper-slide"><img src="img/loja.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/portfolio.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/calculadora.PNG" alt=""></div>
+              <div class="swiper-slide">projeto em construção</div>
+              <div class="swiper-slide">projeto em construção</div>
+              <div class="swiper-slide">projeto em construção</div>
+              <div class="swiper-slide">projeto em construção</div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slidesPerGroup: 3,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+       
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="row text-left">
         <div class="p-4 col-lg-4 col-md-6">
           <div class="card">
