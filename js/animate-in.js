@@ -33,20 +33,6 @@
   	}
 
 
-// código para slider swiper
-
-	  {
-		"tags": [
-		  "swiper"
-		],
-		"name": "Swiper - Inifinite loop with slides per group",
-		"dependencies": {
-		  "swiper": "latest",
-		  "parcel-bundler": "^1.6.1"
-		}
-	  }
-
-
 
 	function update() {
 		var nodes = document.querySelectorAll("*:not(.animate-in-done)[class^='animate-in'], *:not(.animate-in-done)[class*=' animate-in']")
