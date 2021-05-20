@@ -322,20 +322,30 @@ legend {
     height: 100%;
     object-fit: cover;
   }
+  
 
+/* Descrição imagem do swiper */
+  picture {
+    position: relative;
+}
 
+picture > figcaption {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EEE;
+    padding: 10px 15px;
+    opacity: 0;
+    transition: opacity 300ms, left 300ms;
+}
 
+picture:hover > figcaption {
+    opacity: 1;
+    left: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------- */
 
 
 
