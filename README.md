@@ -9,7 +9,7 @@
 * [portfólio](https://portfolio.lourencoautopecas.com.br/)
 
 
-### AUTOR
+### Autor
 Author: Marcos Lourenço de Souza    
 Tell / Whatsapp:   
 marcosrealbmata@gmail.com   
