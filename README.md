@@ -1,5 +1,6 @@
 ## Sobre min
  👋 Olá, me chamo Marcos Lourenço de Souza, mas pode me chamar de Lourenço. Sou formado em Analise e desenvolvimento de sistemas pela Universidade Estadual de Alagoas - [UNCISAL](https://www.uncisal.edu.br/) e conclui em 2019.
+ ### <b>Toda longa caminhada se inicia com um único passo.</b>
 
 
 ## Fiz alguns projetos comeciais e pessoais:
@@ -10,7 +11,7 @@
 
 
 ### Autor
-Author: Marcos Lourenço de Souza    
+Author: Marcos Lourenço de Souza      
 Tell / Whatsapp:   
 marcosrealbmata@gmail.com   
 [Linkedin](https://www.linkedin.com/in/marcos-louren%C3%A7o-20a041141/)     
