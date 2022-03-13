@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- PAGE settings -->
-    <link rel="icon" href="Img/m.png">
+    <link rel="icon" href="img/m.png">
     <title>Portfólio - Perfil profissional</title>
     <meta name="description" content="Free Bootstrap 4 Pingendo Elegant template for unique events.">
     <meta name="keywords" content="Pingendo conference event elegant free template bootstrap 4">
@@ -314,7 +314,7 @@ FORMULÁRIO AQUI
         <div class="row">
             <div class="col-6 col-lg-3 bg-light animate-in-down">
                 <a href="https://www.linkedin.com/in/marcos-louren%C3%A7o-20a041141/">
-                    <img src="Img/linkedin.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+                    <img src="img/linkedin.png" class="center-block img-fluid my-3 rounded-circle" width="300">
                     <h3 class="mb-0">
                         <b class="text">Linkedin</b>
                     </h3>
@@ -323,7 +323,7 @@ FORMULÁRIO AQUI
             </div>
             <div class="col-6 col-lg-3 animate-in-down">
                 <a href="https://github.com/skymarkos7">
-                    <img src="Img/github.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+                    <img src="img/github.png" class="center-block img-fluid my-3 rounded-circle" width="300">
                     <h3 class="mb-0">
                         <b>GitHub</b>
                     </h3>
@@ -332,7 +332,7 @@ FORMULÁRIO AQUI
             </div>
             <div class="col-6 col-lg-3 bg-primary animate-in-down">
                 <a href="https://mail.google.com">
-                    <img src="Img/email_14410.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+                    <img src="img/email_14410.png" class="center-block img-fluid my-3 rounded-circle" width="300">
                     <h3 class="mb-0">
                         <b>E-mail</b>
                     </h3>
@@ -342,7 +342,7 @@ FORMULÁRIO AQUI
             <div class="col-6 mask col-lg-3 bg-dark animate-in-down">
                 <a
                     href="https://api.whatsapp.com/send?phone=5582996909200&amp;text=Oi,%20Enviei%20essa%20mensagem%20pelo%20portfolio#">
-                    <img src="Img/whatsapp.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+                    <img src="img/whatsapp.png" class="center-block img-fluid my-3 rounded-circle" width="300">
                     <h3 class="mb-0">
                         <b>Whatsapp</b>
                     </h3>
