@@ -243,23 +243,23 @@ FORMULÁRIO AQUI
         <div class="swiper-container mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <picture><a href="https://estoque.lourencoautopecas.com.br/"><img src="Img/estoque.png" alt=""></a>
+                    <picture><a href="https://estoque-lap.herokuapp.com/paginas/relatorios.php"><img src="Img/estoque.png" alt=""></a>
                         <figcaption><span>ESTOQUE - Entrada e saída de produtos</figcaption>
                     </picture></a>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="https://rede.lourencoautopecas.com.br/"><img src="Img/loja.png" alt=""></a>
+                    <picture><a href="https://redecomercializar.herokuapp.com/"><img src="Img/loja.png" alt=""></a>
                         <figcaption><span>LOJA - expor produtos</span></figcaption>
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="https://portfolio.lourencoautopecas.com.br/"><img src="Img/portfolio.png"
+                    <picture><a href="https://portfolio-markos.herokuapp.com/"><img src="Img/portfolio.png"
                                 alt=""></a>
                         <figcaption><span>PORTFOLIO - expor habilidades</span></figcaption>
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="https://calculadora.lourencoautopecas.com.br/"><img src="Img/calc.png" alt=""></a>
+                    <picture><a href="https://calcularora-jsv.herokuapp.com/"><img src="Img/calc.png" alt=""></a>
                         <figcaption><span>CALCULADORA - Constrido com vanila JS</span></figcaption>
                     </picture>
                 </div>
