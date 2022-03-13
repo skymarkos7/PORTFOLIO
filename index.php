@@ -259,7 +259,7 @@ FORMULÁRIO AQUI
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="https://calculadora.lourencoautopecas.com.br/"><img src="Img/calculadora.png" alt=""></a>
+                    <picture><a href="https://calculadora.lourencoautopecas.com.br/"><img src="Img/calc.png" alt=""></a>
                         <figcaption><span>CALCULADORA - Constrido com vanila JS</span></figcaption>
                     </picture>
                 </div>
