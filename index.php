@@ -259,18 +259,17 @@ FORMULÁRIO AQUI
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="https://calculadora.lourencoautopecas.com.br/"><img src="Img/calculadora.png"
-                                alt=""></a>
+                    <picture><a href="https://calculadora.lourencoautopecas.com.br/"><img src="Img/calculadora.png" alt=""></a>
                         <figcaption><span>CALCULADORA - Constrido com vanila JS</span></figcaption>
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="#"><img src="Img/construção.png" alt=""></a>
+                    <picture><a href="#"><img src="Img/construcao.png" alt=""></a>
                         <figcaption><span>EM DESENVOLVIMENTO</span></figcaption>
                     </picture>
                 </div>
                 <div class="swiper-slide">
-                    <picture><a href="#"><img src="Img/construção.png" alt=""></a>
+                    <picture><a href="#"><img src="Img/construcao.png" alt=""></a>
                         <figcaption><span>EM DESENVOLVIMENTO</span></figcaption>
                     </picture>
                 </div>
