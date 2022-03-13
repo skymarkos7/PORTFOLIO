@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="Img/marcos.jpg" class="center-block img-fluid my-3 rounded-circle" width="400">
+                    <img src="img/marcos.jpg" class="center-block img-fluid my-3 rounded-circle" width="400">
                 </div>
             </div>
         </div>
