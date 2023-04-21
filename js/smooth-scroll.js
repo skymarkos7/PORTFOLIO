@@ -9,10 +9,28 @@ function servico(){
   let servicoDescricao = document.getElementById("nomeServico").value;
   console.log(servicoDescricao);
   // window.open('https://api.whatsapp.com/send?phone=5582996909200&amp;text=Oi,%20Enviei%20essa%20mensagem%20pelo%20portfolio#');    // abrir em outra aba
-  window.location="https://api.whatsapp.com/send?phone=5582996909200&text="+servicoDescricao; // abrir na mesma aba
+  window.location="https://api.whatsapp.com/send?phone=5582996909200&text=Meu nome é: "+nome+" o serviço é: "+servicoDescricao; // abrir na mesma aba
+  // console.log(nome, servicoDescricao);
+}
 
+function msg(){
 
-  console.log(nome, servicoDescricao);
+   document.getElementById("btnmsg").removeAttribute("hidden");
+}
+
+function send() {
+  let nome = document.getElementById("namemsg").value;
+  let msg  = document.getElementById("msg").value;
+
+  if(!msg){
+    alert("Mensagem vazia, preencha o campo de mensagem");
+  }else{
+    console.log(nome, msg);
+
+    alert("Mensagem enviada com sucesso! Obrigado por entrar em contato!");
+  }
+
+  
 }
 
 (function() {
