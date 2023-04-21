@@ -167,20 +167,7 @@ body > * {
 
 .bg-dark-opaque {
   background: rgba(map-get($theme-colors, 'primary'), 0.60);  
-  .btn {
-  border-color: rgba(map-get($theme-colors, 'light'), 1);
-  color: white;
-  }
-}
-
-.btn {
- &.btn-outline-light:hover {
-      color: map-get($theme-colors,"dark");
-      background-color: map-get($theme-colors,"light");
- }
- &.btn:active, .btn.active {
-    color: map-get($theme-colors,"dark");
-    box-shadow: 0 0 0 3px rgba(187, 18, 74, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  
 }
 
 .carousel {

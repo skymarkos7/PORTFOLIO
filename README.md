@@ -1,16 +1,16 @@
+## Atualização 
+
+Ativando minimamente as funcionalidades anteriormente iniciadas e não finalizadas.
+
+
 ## Sobre min
  👋 Olá, me chamo Marcos Lourenço de Souza, mas pode me chamar de Lourenço. Sou formado em Analise e desenvolvimento de sistemas pela Universidade Estadual de Alagoas - [UNCISAL](https://www.uncisal.edu.br/) e conclui em 2019.
- ### <b>Toda longa caminhada se inicia com um único passo.</b>
+
+<b>Toda longa caminhada se inicia com um único passo.
 
 
-## Fiz alguns projetos comeciais e pessoais:
-* [rede comercializar](https://rede.lourencoautopecas.com.br/)
-* [gerenciando estoque](https://estoque-junto.lourencoautopecas.com.br/paginas/pdv.php)
-* [calculadora](https://calculadora.lourencoautopecas.com.br/)
-* [portfólio](https://portfolio-markos.herokuapp.com/)
 
-
-### Autor
+## Autor
 Author: Marcos Lourenço de Souza      
 Tell / Whatsapp:   
 marcosrealbmata@gmail.com   
