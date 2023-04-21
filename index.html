@@ -83,17 +83,17 @@
                 <form>
                 <div class="mb-3">
                     <label for="recipient-name" class="col-form-label w3-left">Nome:</label>
-                    <input type="text" class="form-control left" placeholder="Digite seu nome" id="recipient-name">
+                    <input type="text" id="nomeServico" class="form-control left" placeholder="Digite seu nome" id="recipient-name">
                 </div>
                 <div class="mb-3">
                     <label for="message-text" class="col-form-label w3-left">Serviço:</label>
-                    <textarea placeholder="Fale um pouco sobre o serviço" class="form-control" id="message-text"></textarea>
+                    <textarea id="descricaoServico" placeholder="Fale um pouco sobre o serviço" class="form-control" id="message-text"></textarea>
                 </div>
                 </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary">Enviar</button>
+                <button type="button" onclick="servico()" class="btn btn-primary">Enviar</button>
             </div>
             </div>
         </div>

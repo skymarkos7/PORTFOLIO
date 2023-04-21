@@ -4,6 +4,16 @@
  * Requires JQuery - Does not work with JQuery slim 
  * Based on https://css-tricks.com/snippets/jquery/smooth-scrolling/
  */
+function servico(){
+  let nome = document.getElementById("descricaoServico").value;
+  let servicoDescricao = document.getElementById("nomeServico").value;
+  console.log(servicoDescricao);
+  // window.open('https://api.whatsapp.com/send?phone=5582996909200&amp;text=Oi,%20Enviei%20essa%20mensagem%20pelo%20portfolio#');    // abrir em outra aba
+  window.location="https://api.whatsapp.com/send?phone=5582996909200&text="+servicoDescricao; // abrir na mesma aba
+
+
+  console.log(nome, servicoDescricao);
+}
 
 (function() {
 
