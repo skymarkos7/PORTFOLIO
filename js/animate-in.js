@@ -6,7 +6,73 @@
  *
  * Make sure to add this to the <head> of your page to avoid flickering on load 
  * Based on https://andycaygill.github.io/scroll-entrance/
- */
+/**
+ * Pegar infos do visitante
+ *  
+ * */ 
+
+
+
+async function getLocale() {   
+  var el_down = document.getElementById("GFG_DOWN");
+    var Name = "Sistema desconhecido";
+    if (navigator.userAgent.indexOf("Win") != -1) Name = 
+      "Computador Windows";
+    if (navigator.userAgent.indexOf("Mac") != -1) Name = 
+      " Computador Apple";
+    if (navigator.userAgent.indexOf("Linux") != -1) Name = 
+      "Computador Linux";
+    if (navigator.userAgent.indexOf("Android") != -1) Name = 
+      "Celular Android";
+    if (navigator.userAgent.indexOf("like Mac") != -1) Name = 
+      "Celular iOS";  
+    let so = Name;   
+  try {
+    //******************   */
+    // pegar SO do usuário */
+    //******************  */      
+    const response_locale = await axios.get("http://ip-api.com/json/");
+    let country = response_locale.data.country;
+    let regionName = response_locale.data.regionName;
+    let city = response_locale.data.city;
+    let zip = response_locale.data.zip;
+    let isp = response_locale.data.isp;
+    let ip = response_locale.data.query;
+    let text =
+      "<b>Você recebeu uma nova visita:</b> %0A %0A" + "<b>PAÍS:</b> " +  country +  "%0A" +  "<b>ESTADO:</b> " +  regionName +   "%0A" + "<b>CIDADE:</b> " +  city +   "%0A" +   "<b>PROVEDOR:</b> " +  isp+ "%0A"+ "<b>CEP:</b> " +  zip +"%0A"+ "<b>Dispositivo:</b> " +  so +  "%0A"  +"<b>IP:</b> " +  ip;
+    let text2 = response_locale.data;
+    const url =
+      "https://api.telegram.org/bot6275392356:AAHEq-a7KsvbMKgdPpTEX5hmQK7ig6yqMQk/sendMessage?chat_id=1169990427&text=" +
+      text +
+      "&parse_mode=html";
+        
+    try{
+      fetch(url);
+    console.log("enviou")
+    }catch{
+      console.log("Não enviou");          
+      fetch('https://api.telegram.org/bot6275392356:AAHEq-a7KsvbMKgdPpTEX5hmQK7ig6yqMQk/sendMessage?chat_id=1169990427&text=Portifolioaa'+'%0A'+text+'%0A'+so);
+    }
+  } catch (error) {
+    fetch(error);
+    console.log("Não enviouu");
+    fetch('https://api.telegram.org/bot6275392356:AAHEq-a7KsvbMKgdPpTEX5hmQK7ig6yqMQk/sendMessage?chat_id=1169990427&text=Portifolio'+'%0A'+so);
+  }
+}
+getLocale();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
