@@ -4,46 +4,7 @@
  * Requires JQuery - Does not work with JQuery slim 
  * Based on https://css-tricks.com/snippets/jquery/smooth-scrolling/
  */
-function servico(){
-  let nome = document.getElementById("nomeServico").value;
-  let servicoDescricao = document.getElementById("descricaoServico").value;
-  console.log(servicoDescricao);
-  // window.open('https://api.whatsapp.com/send?phone=5582996909200&amp;text=Oi,%20Enviei%20essa%20mensagem%20pelo%20portfolio#');    // abrir em outra aba
-  window.location="https://api.whatsapp.com/send?phone=5582996909200&text=Meu nome é: "+nome+" o serviço é: "+servicoDescricao; // abrir na mesma aba
-  // console.log(nome, servicoDescricao);
-}
 
-function msg(){
-
-   document.getElementById("btnmsg").removeAttribute("hidden");
-}
-
-function send() {
-  let nome = document.getElementById("namemsg").value;
-  let msg  = document.getElementById("msg").value;
-
-  if(!msg){
-    alert("Mensagem vazia, preencha o campo de mensagem");
-  }else{
-    console.log(nome, msg);
-    
-    fetch("https://api.telegram.org/bot6275392356:AAHEq-a7KsvbMKgdPpTEX5hmQK7ig6yqMQk/sendMessage?chat_id=1169990427&text=portifolio%0A"+nome+"%0A"+msg);
-
-    // document.getElementById("btnmsg").removeAttribute("hidden");
-    // document.getElementById("btnmsg").setAttribute("hidden")
-
-    document.getElementById("btnmsg").setAttribute("style","visibility:hidden")
-    document.getElementById("msg").setAttribute("style","visibility:hidden")
-    document.getElementById("namemsg").setAttribute("style","visibility:hidden")
-    document.getElementById("msg2").removeAttribute("hidden");
-
-    document.getElementById("pedido").innerHTML = "Obrigado por sua mensagem";
-
-    
-  }
-
-  
-}
 
 (function() {
 
