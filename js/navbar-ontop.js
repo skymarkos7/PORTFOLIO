@@ -5,12 +5,6 @@
  */
 
 
- .modal:target {
-	opacity: 1;
-	pointer-events: auto;
-  }
-
-
 
 
 (function() {
